@@ -1,0 +1,89 @@
+/* Body.css */
+
+/* Define custom animations */
+@keyframes fadeInUpBig {
+    from {
+      opacity: 0;
+      transform: translateY(200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animations to elements */
+  .animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeInUpBig {
+    animation-name: fadeInUpBig;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  /* Ensure h1 is on top */
+  h1 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Ensure the container has enough padding */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  /* Body.css */
+
+/* Define custom animations */
+@keyframes wavyAnimation {
+    0% {
+      transform: translateX(-5px) rotate(-3deg);
+    }
+    50% {
+      transform: translateX(5px) rotate(3deg);
+    }
+    100% {
+      transform: translateX(-5px) rotate(-3deg);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animations to elements */
+  .animate__animated {
+    animation-fill-mode: both;
+  }
+  
+  .animate__fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  .animate__wavy {
+    animation-name: wavyAnimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
