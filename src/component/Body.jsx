@@ -9,7 +9,7 @@ const Body = () => {
     <div>
       <section className="bg-black text-white py-8 relative">
         <div className="container mx-auto text-center">
-          <h1 className="text-[6rem] md:text-[8rem] lg:text-[12rem] font-extrabold bg-gradient-to-r from-blue-500 to-green-400 bg-clip-text text-transparent leading-none animate__animated animate__fadeInUpBig">
+          <h1 className="text-[6rem] md:text-[8rem] lg:text-[12rem] font-extrabold bg-gradient-to-r from-blue-500 to-green-400 bg-clip-text text-transparent leading-none animate__animated animate__fadeInUpBig" style={{lineHeight: 1.6}}>
             Creating
           </h1>
           <h1 className="h-[276px] flex-1 relative text-inherit leading-[110%] font-bold font-inherit inline-block max-w-full mq450:text-10xl mq450:leading-[32px] mq1125:text-19xl mq1125:leading-[42px]">
